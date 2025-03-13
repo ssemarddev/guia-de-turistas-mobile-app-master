@@ -209,7 +209,7 @@ export class PanelPage implements OnInit {
         title: 'Revisar disponiblidad',
         weekdays: ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
         color: 'white',
-        to: new Date("2023/12/31 18:10:45")
+        to: new Date("2025/12/31 18:10:45")
 
       };
     } else{
@@ -217,7 +217,7 @@ export class PanelPage implements OnInit {
         title: 'Revisar disponiblidad',
         weekdays: ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
         color: 'white',
-        to: new Date("2023/12/31 18:10:45"),
+        to: new Date("2025/12/31 18:10:45"),
         defaultDate: defaultDate
       };
     }
