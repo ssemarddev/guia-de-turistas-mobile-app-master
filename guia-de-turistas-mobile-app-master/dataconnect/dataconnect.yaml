@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "guia-de-turistas-mobile-app-master"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "guia-de-turistas-mobile-app-master-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

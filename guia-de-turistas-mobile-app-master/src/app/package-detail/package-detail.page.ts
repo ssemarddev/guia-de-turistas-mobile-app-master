@@ -227,7 +227,7 @@ export class PackageDetailPage implements OnInit {
     if(!this.selectedDate){
       options = {
         from: new Date(),
-        to: new Date("2023/12/31 18:10:45"),
+        to: new Date("2025/12/31 18:10:45"),
          title: 'Revisar disponiblidad',
          weekdays: ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
          color: 'white',
@@ -236,7 +236,7 @@ export class PackageDetailPage implements OnInit {
      } else{
        options = {
         from: new Date(),
-        to: new Date("2023/12/31 18:10:45"),
+        to: new Date("2025/12/31 18:10:45"),
          title: 'Revisar disponiblidad',
          weekdays: ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
          color: 'white',
